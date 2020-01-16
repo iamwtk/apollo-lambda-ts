@@ -1,0 +1,36 @@
+{
+  "name": "typescript-apollo-lambda",
+  "version": "0.0.1",
+  "description": "example apollo server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "tsc": "tsc",
+    "start": "sls offline start --skipCacheInvalidation --port 5000",
+    "build": "npm run tsc",
+    "sls:offline": "npm run build && npm start",
+    "dev": "nodemon --watch src --ext .ts --exec npm run sls:offline",
+    "generate": "graphql-codegen init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tba"
+  },
+  "author": "iamwtk",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-codegen": "^0.20.2",
+    "apollo-server-lambda": "^2.9.16",
+    "axios": "^0.19.1",
+    "graphql": "^14.5.8",
+    "graphql-codegen": "^0.4.0",
+    "serverless-dotenv-plugin": "^2.1.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/typescript": "^1.11.2",
+    "nodemon": "^2.0.2",
+    "serverless-offline": "^5.12.1",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^3.7.4"
+  }
+}

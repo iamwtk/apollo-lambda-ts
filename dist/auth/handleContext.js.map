@@ -1,0 +1,1 @@
+{"version":3,"file":"handleContext.js","sourceRoot":"","sources":["../../src/auth/handleContext.ts"],"names":[],"mappings":";;AAAA,iCAA0B;AAE1B,SAAwB,aAAa,CAAC,OAAO;IAC3C,MAAM,EAAE,KAAK,EAAE,GAAG,OAAO,CAAC;IAC1B,eAAK,CAAC,QAAQ,CAAC,OAAO,CAAC,MAAM,CAAC,aAAa;QACzC,KAAK,CAAC,OAAO,CAAC,aAAa,IAAI,EAAE,CAAC;IACpC,OAAO,KAAK,CAAC;AACf,CAAC;AALD,gCAKC"}
