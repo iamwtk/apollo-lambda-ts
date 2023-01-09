@@ -29,7 +29,7 @@
   "devDependencies": {
     "@graphql-codegen/typescript": "^1.11.2",
     "nodemon": "^2.0.2",
-    "serverless-offline": "^5.12.1",
+    "serverless-offline": "^12.0.4",
     "serverless-plugin-typescript": "^1.1.9",
     "typescript": "^3.7.4"
   }
